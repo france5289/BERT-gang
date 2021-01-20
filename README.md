@@ -43,7 +43,7 @@ python --version
 ## Distillation Result
 | Model(Params)     | train acc | dev-m acc | dev-mm acc |
 | ----------------- | --------- | --------- | ---------- |
-| BERT~base~ (110M) | 0.964217  | 0.846052  | 0.850488   |
+| BERT<sup>base</sup> (110M) | 0.964217  | 0.846052  | 0.850488   |
 | Ours( 66M )       | 0.863522  | 0.808864  | 0.811432   |
 
 ## Note:
