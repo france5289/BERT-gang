@@ -1,6 +1,7 @@
 # BERT-gang
 
 Using Knowledge Distillation to learn from BERT-like models.
+You can see documentation in `doc` for more details.
 
 ## Setup
 
@@ -38,6 +39,12 @@ python --version
   - You need to install `cuda` driver first.
   - Required `cuda10+`.
 - Use `tensorboard --logdir='./data/fine_tune_experiment/log'` to monitor loss, learning rate and accuracy.
+
+## Distillation Result
+| Model(Params)     | train acc | dev-m acc | dev-mm acc |
+| ----------------- | --------- | --------- | ---------- |
+| BERT~base~ (110M) | 0.964217  | 0.846052  | 0.850488   |
+| Ours( 66M )       | 0.863522  | 0.808864  | 0.811432   |
 
 ## Note:
 It is a cooperative project with `ProFatXuanAll`, some code is developed by him.
