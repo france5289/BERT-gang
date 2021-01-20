@@ -105,7 +105,7 @@ python3.8 run_fine_tune_eval.py \
 ### BERT Fine-Tune Distillation Scripts with Multi-GPU
 
 #### Use logits loss + hidden states loss + attention loss
-
+```sh
 python3.8 run_fine_tune_distill_mgpu.py \
 --teacher_exp test                \
 --tmodel bert                      \
@@ -135,6 +135,7 @@ python3.8 run_fine_tune_distill_mgpu.py \
 --use_logits_loss                  \
 --use_hidden_loss                  \
 --use_attn_loss
+```
 
 ### BERT Fine-Tune Distillation Evaluation Scripts
 
